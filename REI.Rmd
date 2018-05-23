@@ -11,14 +11,13 @@ Title:Cynthia's work
 "products"contains *655,557* records of product details, and this dataset has been cleaned by excel.Cleaning steps are listed as follows:
 
 1.Keep the variables that are relevant to the research goal
-
 2.Clean the sku_description variable
 
-*Clean the extra characteristics like #,=+,=-,' in the column*
+  *Clean the extra characteristics like #,=+,=-,' in the column*
 
-*Select the left three letters and convert into upper case*
+  *Select the left three letters and convert into upper case*
 
-*Create a new column named brand. If the left three letters of the sku_description column are "REI", then 1, else 0*
+  *Create a new column named brand. If the left three letters of the sku_description column are "REI", then 1, else 0*
 
 
 
@@ -182,7 +181,7 @@ avg_pur_r<-sqldf("select avg(day_dif) from before_r")
 
 ```
 
-see those records of customers who made new purchases within the same date of return
+see those records of customers who made new purchases within the same day of return
 ```{r}
  after_r<-sqldf("
 SELECT rt.customer_id,
