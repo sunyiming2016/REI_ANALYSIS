@@ -11,6 +11,7 @@ Title:Cynthia's work
 "products"contains *655,557* records of product details, and this dataset has been cleaned by excel.Cleaning steps are listed as follows:
 
 1.Keep the variables that are relevant to the research goal
+
 2.Clean the sku_description variable
 
   *Clean the extra characteristics like #,=+,=-,' in the column*
